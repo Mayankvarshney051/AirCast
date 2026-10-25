@@ -655,4 +655,4 @@ GL Bajaj Institute of Technology and Management
 
 ## 📄 License
 
-This project was developed as a B.Tech academic major project.
+This project is available for educational and portfolio purposes.
