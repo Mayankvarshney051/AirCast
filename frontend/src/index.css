@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Theme Tokens */
+  --bg-base: #060d0b;
+  --bg-card: rgba(14, 28, 24, 0.75);
+  --bg-card-hover: rgba(19, 38, 33, 0.85);
+  --border-subtle: rgba(72, 230, 181, 0.12);
+  --border-bright: rgba(72, 230, 181, 0.35);
+
+  --text-main: #f0f7f4;
+  --text-muted: #8ba89f;
+  --text-dim: #547369;
+
+  --accent-emerald: #10b981;
+  --accent-teal: #14f1b2;
+  --accent-amber: #f59e0b;
+  --accent-orange: #f97316;
+  --accent-rose: #f43f5e;
+  --accent-purple: #a855f7;
+
+  font-family: var(--font-sans);
+  color: var(--text-main);
+  background: var(--bg-base);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  background-color: var(--bg-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: 
+    radial-gradient(circle at 15% 15%, rgba(16, 185, 129, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 85% 25%, rgba(20, 241, 178, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 50% 90%, rgba(5, 150, 105, 0.06) 0%, transparent 50%),
+    #070f0d;
+  background-attachment: fixed;
+  color: var(--text-main);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
